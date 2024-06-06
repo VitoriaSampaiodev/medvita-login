@@ -1,0 +1,28 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.text-green-default {
+    color: #0DB26F;
+}
+
+.green-btn {
+    background-color: #0DB26F;
+    border: none;
+    border-radius: 50px;
+    padding: 5px 20px;
+    font-weight: bold;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.green-btn:hover {
+    background-color: #004228(0, 68, 0) !important; 
+}
+
+.green-btn:active {
+    background-color: #075033(35, 100, 35);
+}

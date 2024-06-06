@@ -1,0 +1,21 @@
+.login-container {
+    margin-top: 10rem;
+}
+
+.login-form div, .login-form label {
+    margin-bottom: 2rem;
+    font-weight: bold;
+    color: rgb(65, 65, 65);
+    font-size: 2rem;
+}
+
+.login-container::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 300px; /* Largura da coluna verde */
+    background-color: #0DB26F;
+    z-index: -1;
+  }
